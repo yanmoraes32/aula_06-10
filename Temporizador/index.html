@@ -15,11 +15,14 @@
 
     </div>
     <script>
+       function disparaAlerta(){
         var app = document.querySelector('#app');
         texto = app.textContent;
-        setInterval(() => {
-            alert(texto)
-        }, 3000);
+        alert(texto)
+       }
+       setInterval(disparaAlerta, 3000);
+       
+    
          
 
     </script>
